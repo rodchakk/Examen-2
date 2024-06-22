@@ -6,18 +6,23 @@ Algoritmo sin_titulo
 	Definir r1,r2 Como Real
 	Definir result Como Real
 	
-	Escribir "Ingrese valor de a: "
-	leer a
+
+
+		Escribir "Ingrese valor de a: "
+		leer a
+		
+		Si a=0 Entonces
+			
+			Repetir
+				Escribir "Valor de a no puede ser cero, ingrese nuevo valor"
+				leer a
+			Hasta Que a <> 0
+		SiNo
+		
+		Fin Si
+		
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 	
 	Escribir "Ingrese valor de b: "
