@@ -8,6 +8,18 @@ Algoritmo sin_titulo
 	
 	Escribir "Ingrese valor de a: "
 	leer a
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	Escribir "Ingrese valor de b: "
 	Leer b
 	Escribir "Ingrese valor de c: "
@@ -15,13 +27,17 @@ Algoritmo sin_titulo
 	
 	
 	
-	r1= rc(a)
+	r1 = (-b + rc(b^2 - 4 * a * c )) / (2 * a)
+	r2 = (-b - rc(b^2 - 4 * a * c )) / (2 * a)
+	
+	
+	
+	Escribir "R1 = " r1
+	Escribir "R2 = " r2
+	
+	
 	
 
-	Escribir "Raiz de A es: " r1
-	
 
-	
-	
 	
 FinAlgoritmo
